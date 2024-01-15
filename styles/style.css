@@ -1,0 +1,290 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Merriweather", serif;
+  font-family: "Mulish", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Sora", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+
+/* shared */
+.section-title {
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+}
+.paragraph-text-style {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.625rem; /* 162.5% */
+}
+.btn-primary {
+  width: 174px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #ff5400;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 800;
+  border: 0;
+}
+body button > a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main section {
+  width: 80%;
+  margin: 0px auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+/* nav style */
+
+nav {
+  width: 90%;
+  margin: 20px auto;
+  /* background-color: aquamarine; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Travel-company-detailes {
+  /* background-color: blue; */
+  display: flex;
+  justify-content: space-evenly;
+  gap: 17px;
+  align-items: center;
+}
+
+.Travel-company-detailes h3 {
+  color: #131318;
+  font-size: 2.25rem;
+  font-weight: 800;
+}
+
+.title-design,
+.nav-design {
+  color: #ff5400;
+}
+.nav-bar {
+  width: 40%;
+}
+.nav-bar a {
+  text-decoration: none;
+  color: var(--Dark-02, #424247);
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+.nav-bar ul {
+  /* background-color: blueviolet; */
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+/* banner style */
+.banner {
+  width: 90%;
+  background-color: #ff5400;
+  margin: auto;
+  background-image: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url(../Images/banner.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+  border-radius: 16px;
+  display: flex;
+}
+
+.banner-container {
+  /* background-color: #ff5400; */
+  width: 80%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+.banner-container p {
+  /* background-color: aquamarine; */
+  margin: auto;
+  max-width: 676px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.banner-container h1 {
+  font-size: 4rem;
+
+  font-weight: 800;
+}
+
+.input-container {
+  display: inline-flex;
+  padding: 16px;
+  align-items: flex-start;
+  gap: 24px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.input-box {
+  width: 174px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #fff;
+  text-align: left;
+}
+.input-container input {
+  text-align: left;
+  gap: 16px;
+  border: none;
+  padding-left: 15px;
+  color: rgba(19, 19, 24, 0.5);
+  font-size: 16px;
+  font-weight: 400;
+}
+/* our popular trip */
+.Popular-Tours .paragraph-text-style {
+  color: #131318;
+}
+.Popular-Tours {
+  display: flex;
+  /* background-color: steelblue; */
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.popular-container {
+  /* background-color: #ff5400; */
+  max-width: 45%;
+}
+.list {
+  position: relative;
+  left: 15px;
+  width: 90%;
+  justify-content: left;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  /* background-color: beige; */
+}
+
+.popular-container .section-title {
+  margin-bottom: 24px;
+}
+
+.popular-img {
+  border-radius: 16px;
+}
+.popular-container .list ul > li {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.popular-container button {
+  margin-top: 32px;
+}
+
+/* tour destination */
+.destination {
+  text-align: center;
+}
+
+.destination p {
+  max-width: 643px;
+  color: #131318;
+  margin: auto;
+  margin-top: 24px;
+  margin-bottom: 40px;
+}
+.destination-img-container {
+  width: 100%;
+  /* background-color: #131318; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  justify-content: center;
+  gap: 25px;
+}
+
+.image-container {
+  position: relative;
+  text-align: center;
+}
+
+.centered-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 28px;
+  font-weight: 800;
+}
+/* Why-choose  us*/
+.Why-choose {
+  text-align: center;
+}
+
+.Why-choose .paragraph-text-style {
+  max-width: 643px;
+  color: #131318;
+  margin: auto;
+  margin-top: 24px;
+  margin-bottom: 40px;
+}
+.box {
+  width: 500px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  text-align: left;
+  padding: 20px;
+}
+#box-1 {
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+}
+
+#box-2 {
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+}
+
+#box-3 {
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
+}
+.box-cont {
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.box-line-1 {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 25px;
+}
+
+.box-line-2 {
+  display: flex;
+  justify-content: center;
+}
+.box-total h3 {
+  margin-top: 36px;
+}
