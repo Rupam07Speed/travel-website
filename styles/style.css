@@ -432,7 +432,7 @@ footer hr {
 }
 /* responsive for mobile */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 599px) {
   .nav-title {
     display: none;
   }
@@ -562,6 +562,8 @@ footer hr {
   .input-container {
     position: relative;
     top: -40px;
+    display: flex;
+    flex-direction: column;
   }
   .banner-container p {
     margin: auto;
@@ -625,11 +627,11 @@ footer hr {
     width: 100%;
   }
   .save-up {
-    left: 350px;
+    left: 550px;
   }
   footer {
     position: relative;
-    bottom: -400px;
+    bottom: -500px;
   }
   .footer-container {
     margin: auto;
